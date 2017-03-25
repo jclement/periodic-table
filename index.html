@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Periodic Table</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <table id="periodic"></table>
+
+        <div id="detail_popup" class="popup">
+            <h1 class="header">
+                <span class="field_atomic_number"></span>
+                <span class="field_symbol"></span>
+                <span class="sep">-</span>
+                <span class="field_name"></span>
+            </h1>
+            <div class="field_description"></div>
+            <table>
+            <tr><th>Atomic Weight:</th><td class="field_atomic_weight"></td></tr>
+            <tr><th>Boiling Point (&deg;C):</th><td class="field_boiling_point"></td></tr>
+            <tr><th>Melting Point (&deg;C):</th><td class="field_melting_point"></td></tr>
+            </table>
+            <div class="footer">
+            <button class="detail_popup_close">Close</button>
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-3.2.0.min.js"></script>
+        <script src="js/vendor/jquery.popupoverlay.js"></script>
+        <script src="js/vendor/lodash.core.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
