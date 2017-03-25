@@ -1,6 +1,0 @@
-[
-  {"num":1, "r": 0, "c": 0, "sym":"H", "name": "Hydrogen", "class":null, "desc":"Hydrogen"},
-  {"num":2, "r": 0, "c": 1, "sym":"H", "class":null, "desc":"Hydrogen"},
-  {"num":3, "r": 2, "c": 0, "sym":"He", "name": "Helium", "class":"red", "desc":"Hydrogen"},
-  {"num":4, "r": 2, "c": 4, "sym":"H", "class":null, "desc":"Hydrogen"}
-]
